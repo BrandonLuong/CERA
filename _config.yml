@@ -1,3 +1,29 @@
-remote_theme: pages-themes/cayman@v0.2.0
+title: "CERA: A Community-Driven Platform for Enhancing Utility Safety"
+author: "Mateo Ignacio, Brandon Luong, Tram Nguyen, Kelly Park"
+description: "CERA: A Community-Driven Platform for Enhancing Utility Safety"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: false        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
+mathjax: true
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md", title: Home}
+  - {file: "introduction.md", title: Introduction}
+  - {file: "methods.md", title: Methods}
+  - {file: "results.md", title: Results}
+  - {file: "conclusion.md", title: Conclusion}
+
+# remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme 
+- jekyll-feed
+# - jekyll-remote-theme 
