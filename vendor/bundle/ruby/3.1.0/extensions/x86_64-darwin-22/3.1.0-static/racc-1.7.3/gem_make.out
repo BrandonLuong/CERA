@@ -1,0 +1,15 @@
+current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/mateo/.rubies/ruby-3.1.3/bin/ruby -I /Users/mateo/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240312-33608-hchrgz sitelibdir\=./.gem.20240312-33608-hchrgz clean
+
+current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240312-33608-hchrgz sitelibdir\=./.gem.20240312-33608-hchrgz
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240312-33608-hchrgz sitelibdir\=./.gem.20240312-33608-hchrgz install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240312-33608-hchrgz/racc
