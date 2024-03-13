@@ -11,3 +11,6 @@ theme: jekyll-theme-cayman
 
 # navigation:                # accepts {file, title, url, icon, sidebaricon}
 #   - {file: "index.md", title: Home}
+
+navigation:
+    - {file: "models.md", title: Models}
