@@ -1,5 +1,5 @@
 current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-/Users/mateo/.rubies/ruby-3.1.3/bin/ruby -I /Users/mateo/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+/Users/mateo/.rubies/ruby-3.1.3/bin/ruby extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -32,14 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-33608-aium7e sitelibdir\=./.gem.20240312-33608-aium7e clean
+make DESTDIR\= sitearchdir\=./.gem.20240313-49502-1iiebo sitelibdir\=./.gem.20240313-49502-1iiebo clean
 
 current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-33608-aium7e sitelibdir\=./.gem.20240312-33608-aium7e
+make DESTDIR\= sitearchdir\=./.gem.20240313-49502-1iiebo sitelibdir\=./.gem.20240313-49502-1iiebo
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-33608-aium7e sitelibdir\=./.gem.20240312-33608-aium7e install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240312-33608-aium7e
+make DESTDIR\= sitearchdir\=./.gem.20240313-49502-1iiebo sitelibdir\=./.gem.20240313-49502-1iiebo install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240313-49502-1iiebo
+
+current directory: /Users/mateo/Desktop/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20240313-49502-1iiebo sitelibdir\=./.gem.20240313-49502-1iiebo clean

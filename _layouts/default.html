@@ -17,7 +17,17 @@
 
     <header class="header" role="banner">
     </header>
+    <header class="hero-banner" role="banner" hr>
 
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <a href="./" class="buttons">Home</a>
+      <!-- Website sections -->
+      <a href="{{ site.baseurl }}/models.html" class="buttons">Models</a>
+      <a href="{{ site.baseurl }}/results.html" class="buttons">Results</a>
+      <a href="{{ site.baseurl }}/demo.html" class="buttons">Demo</a>
+      <a href="{{ site.baseurl }}/prototype.html" class="buttons">Prototype</a>
+
+    </header>
     <main id="content" class="main-content" role="main">
       {{ content }}
 
