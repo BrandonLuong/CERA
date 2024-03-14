@@ -1,5 +1,5 @@
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-/Users/brandonluong/.rubies/ruby-3.1.3/bin/ruby -I /Users/brandonluong/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+/Users/brandonluong/.rubies/ruby-3.1.3/bin/ruby extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -32,14 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-76772-hnes0o sitelibdir\=./.gem.20240312-76772-hnes0o clean
+make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 clean
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-76772-hnes0o sitelibdir\=./.gem.20240312-76772-hnes0o
+make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-76772-hnes0o sitelibdir\=./.gem.20240312-76772-hnes0o install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240312-76772-hnes0o
+make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240312-85276-vlf8z2
+
+current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 clean

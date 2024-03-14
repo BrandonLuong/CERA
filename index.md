@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: default2
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-[Link to methods page](./_site/docs/models.html).
+[Link to methods page](./models.html).
 
 
 There should be whitespace between paragraphs.
