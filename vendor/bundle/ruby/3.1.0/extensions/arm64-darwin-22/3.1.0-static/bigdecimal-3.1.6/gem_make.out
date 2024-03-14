@@ -32,17 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 clean
+make DESTDIR\= sitearchdir\=./.gem.20240314-6777-o18437 sitelibdir\=./.gem.20240314-6777-o18437 clean
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2
+make DESTDIR\= sitearchdir\=./.gem.20240314-6777-o18437 sitelibdir\=./.gem.20240314-6777-o18437
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240312-85276-vlf8z2
+make DESTDIR\= sitearchdir\=./.gem.20240314-6777-o18437 sitelibdir\=./.gem.20240314-6777-o18437 install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240314-6777-o18437
 
 current directory: /Users/brandonluong/CERA/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.6/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240312-85276-vlf8z2 sitelibdir\=./.gem.20240312-85276-vlf8z2 clean
+make DESTDIR\= sitearchdir\=./.gem.20240314-6777-o18437 sitelibdir\=./.gem.20240314-6777-o18437 clean
