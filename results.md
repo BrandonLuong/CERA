@@ -3,7 +3,12 @@ layout: default
 title: results
 ---
 # Results
+![](static/figures/detr_performance.png)
 
+
+<img src="static/figures/confusion_matrix.png"
+     alt="Confusion_matrix SVM"
+     style="margin = 50px" />
 # Future Work
 We recognize the boundaries in which our platform is confined; however, this first iteration of CERA serves as a proof of concept. We have much more to explore.
 

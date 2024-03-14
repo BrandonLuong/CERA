@@ -2,9 +2,4 @@
 layout: default
 title: "Flow"
 ---
-
-## Welcome to another page
-
-_yay_
-
-[back](./)
+![](static/figures/flow_chart.png)

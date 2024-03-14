@@ -3,7 +3,11 @@ layout: default
 title: "Prototype"
 ---
 # UI/UX Demonstration
+                                                                       
+We kept in mind that not every SDG&E customer is adept with their cell phones, especially apps. This is why we tried to keep it as simple as possible with only 3 major steps. Starting a report is as easy as pressing a button. Next take or upload an image of potentially concerning equipment making sure to capture the whole thing. Finally write a text description where customers can tell us things that aren’t seen such as buzzing noises or sparks that weren’t seen in the photo.
+
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FD0y9NJKv6iIpmPYpJOIx9z%2FDSC180B-APP%3Ftype%3Ddesign%26node-id%3D102-20%26t%3D9OOGMUXIHFzKT6ah-1%26scaling%3Dmin-zoom%26page-id%3D6%253A8%26starting-point-node-id%3D436%253A759%26mode%3Ddesign" allowfullscreen></iframe>
 
+The app is designed intentionally with big buttons and bright colors that lead a user to the next step. While also still being appealing as users would not want to use something that is hard to look at or boring.
 
 [back](./)
