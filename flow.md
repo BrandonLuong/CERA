@@ -2,5 +2,10 @@
 layout: default
 title: "Flow"
 ---
-# Flow
-<img src="static/figures/flow_chart.png" alt="flow_chart" width = '400'/>
+
+<!--
+![](static/figures/flow_chart.png)
+-->
+<p align="center">
+    <img src="static/figures/flow_chart.png" alt="Flow Chart">
+</p>
