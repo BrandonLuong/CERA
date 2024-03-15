@@ -7,7 +7,7 @@ title: "Cera"
 <!-- [Link to another page](./another-page.html).
 
 [Link to methods page](./models.html). -->
-# Why Did We do This
+# Why CERA?
 Current utility report process consists of:
 - **Members of the public having  to communicate their concerns with the call center which will direct them to the proper department** 
 - **SDG&E’s immediate response team is sent out based on a description of the issue by callers that may carry ambiguity**
