@@ -704,7 +704,6 @@ a:hover {
   display: inline;
   justify-content: space-between;
   padding-left: 45px;
-  color: #000;
 }
 
 @media screen and (max-width: 996px) {
@@ -782,7 +781,6 @@ a:hover {
 }
 
 .project-name {
-  color: #000;
   margin-top: 0;
   margin-bottom: 0.1rem;
 }
