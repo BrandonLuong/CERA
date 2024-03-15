@@ -64,12 +64,11 @@
 <h2 id="detr-model">Detr Model</h2>
 <p>For the first layer in our platform, the goal is to validate whether or not the submitted image contains a pole so we optimized DeTr, a pre-trained object detection model, on 1500 valid images of poles collected from the Google Street View API. As our product accepts data in the form of manually taken images, we trained the model with an additional 515 manually captured photos from different angles, times of day and exposures with the intention of accommodating different users.</p>
 
-<p>The DeTr model is a good
-It works by combining a back bone that can be changed but for DeTr it is a resnet50 that makes an image into a 2d representation. Then feeds to a transformer to calculate the features in the image, in our case poles.then a feed forward network that makes the final decision for a prediction on whether or not a pole is detected.
-A transformer utilizes two parts an encoder and decoder to transform one sequence into another. They are mostly known for their use in Natural language processing.</p>
+<p>It works by combining a back bone, for DeTr it is a resnet50, that makes an image into a 2d representation. Then feeds to a transformer to calculate the features in the image, in our case poles. Then a feed forward network that makes the final decision for a prediction on whether or not a pole is detected.</p>
 
 <h2 id="text-models">Text Models</h2>
 <p>As for the second layer, we performed text analysis to identify the topic and urgency of potential pole issue descriptions that the platform would accept. To do this, two different NLP models are used, SVM for topic classification and a VADER model for sentiment analysis.</p>
+
 <h2 id="svm-model">SVM Model</h2>
 <p>While researching different models to use for our text analysis, we found that linear SVM were best suited for our goal to classify text into several categories. To use SVM, we preprocessed the text to represent vectors of n dimensions where each word in the text is a single dimension. This model works by reducing the dimensionality of the vectors and creating multiple decision boundaries with varying weights, allowing for accurate classifications. We trained the SVM model on the HumAID data to categorize the text into “infrastructure_and_utility_damage” and “requests_or_urgent_needs” labels. While labels are not ideal, this provides a measure of usability in the future when more helpful labels may be used to better identify the urgency of an asset’s condition such as “fire”, “tilt”, and “minor malfunction”.</p>
 
